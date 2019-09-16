@@ -6,7 +6,7 @@
 #    By: ehaggon <ehaggon@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/11 11:56:46 by ehaggon           #+#    #+#              #
-#    Updated: 2019/09/11 11:56:48 by ehaggon          ###   ########.fr        #
+#    Updated: 2019/09/16 17:39:11 by ehaggon          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,7 +38,7 @@ src :=	ft_putstr.c ft_putstr_fd.c ft_strlen.c ft_putchar.c ft_putchar_fd.c ft_st
 		print_unbr_size_1.c print_unbr_size_2.c print_unbr_util_1.c print_unbr_util_2.c \
 		print_unbr_util_3.c print_float_util.c print_unbr_driver.c print_binary_driver.c \
 		print_octal_driver.c print_hex_driver.c print_pointer_driver.c print_float_driver.c \
-		print_char_driver.c print_string.c print_collector.c print_main_1.c print_main_2.c ft_printf.c \
+		print_char_driver.c print_string.c print_collect1.c print_collect2.c print_main_1.c print_main_2.c ft_printf.c \
 
 no_files := $(words ${src})
 obj := ${src:.c=.o}
